@@ -7,7 +7,13 @@ Sursa: raportul KAN-53 (BOOK-53), sectiunea 3, punctele P2.
 
 ## Stare
 
-Modificarile NU sunt aplicate in Canva. Canva refuza editarea prin API pentru designuri cu 144 de pagini ("Editing a Canva Design with a size of 144 pages is not currently supported"). Textul curent de mai jos a fost citit direct din design pe 2026-11-09. Lista e gata de aplicat manual, o singura data, in aproximativ 30 de minute.
+Aplicat in Canva pe 2026-11-09 (Find and replace in editorul Canva, design DAGje1s6FQw). Verificat prin citirea textului din design dupa aplicare.
+
+* Design editat: https://www.canva.com/d/eyh8AgMstAiFxAh (view: https://www.canva.com/d/QPROUOy6fHeJyI3)
+* Copie de rezerva inainte de editare, cu textul vechi: DAHaaoEX2ps, https://www.canva.com/d/YV9NIC1Bpwmfuso
+* Canva refuza editarea prin API pentru designuri cu 144 de pagini, deci modificarile s-au facut din editor.
+* Exceptie: "&" de pe p.144 ("&  take with you") NU a fost schimbat. Ramane in BOOK-72.
+* Pe p.144 raman 2 semne de exclamare: "yourself!" si "You matter!".
 
 ## Modificari de aplicat
 
@@ -45,7 +51,7 @@ Text nou:
 * Bullets: "every small shift matters." / "you are growing, even when it’s quiet." / "you are enough."
 * "and take with you everything you’ve discovered. Your voice matters. Your growth matters. You matter!"
 
-Semne de exclamare ramase: 2. Textul nou include si "&" inlocuit cu "and" (suprapunere cu BOOK-72, p.144). Daca BOOK-72 e facut deja, sari peste acea parte.
+Semne de exclamare ramase: 2. Ultima fraza ramane cu "&" pana la BOOK-72. Cand il faci, scrie "and take with you everything you’ve discovered. Your voice matters. Your growth matters. You matter!".
 
 ### Mesaje opuse si "today"
 
@@ -74,9 +80,3 @@ Verificare sursa: W3 seamana cu o fraza atribuita des autoarei Melody Beattie. W
 * BOOK-72: p.144 ("&") si citatul Oprah de pe p.3. Citatul Oprah nu e in BOOK-75.
 * BOOK-73: inlocuieste prompturile duplicate (W3, W33, W49 au prompturi in lista lui). Aici am schimbat doar citatele de pe aceleasi pagini.
 * BOOK-77: apostrof, virgula seriala si liniute. Am pastrat apostroful curb (’) in textul nou.
-
-## Dupa aplicare in Canva
-
-1. Posteaza linkul din Canva ca comentariu pe BOOK-75.
-2. Adauga linkul si data versiunii in acest fisier.
-3. Muta tichetul in In Review.
