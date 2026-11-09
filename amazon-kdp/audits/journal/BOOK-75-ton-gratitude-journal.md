@@ -13,6 +13,7 @@ Aplicat in Canva pe 2026-11-09 (Find and replace in editorul Canva, design DAGje
 * Copie de rezerva inainte de editare, cu textul vechi: DAHaaoEX2ps, https://www.canva.com/d/YV9NIC1Bpwmfuso
 * Canva refuza editarea prin API pentru designuri cu 144 de pagini, deci modificarile s-au facut din editor.
 * Exceptie: "&" de pe p.144 ("&  take with you") NU a fost schimbat. Ramane in BOOK-72.
+* Textele de la W3, W10, W11, W21, W26 si W49 sunt scurtate la lungimea citatului original. Prima varianta era mai lunga si trecea pe al doilea rand, cu ultimul cuvant peste linia de sub citat. Dupa scurtare, textul e salvat. Miniaturile Canva nu se reimprospatasera la verificare, deci incadrarea in pagina trebuie confirmata cu ochiul.
 * Pe p.144 raman 2 semne de exclamare: "yourself!" si "You matter!".
 
 ## Modificari de aplicat
@@ -26,7 +27,7 @@ Textul nou foloseste propozitii scurte si nu leaga ideile cu liniute.
 | p.1 | "Let this be your reminder: there’s always something to be thankful for." | "Let this be your reminder: even on hard days, you can look for one small good thing." |
 | W2 (citat) | "Every day may not be good, but there’s something good in every day." | "Not every day is good. Often there is something small worth noticing." |
 | W33 (citat) | "A grateful mind is a magnet for miracles." | "A grateful mind notices more of the good." |
-| W49 (citat) | "Some lessons are blessings in disguise." | "Some hard moments teach you something later." |
+| W49 (citat) | "Some lessons are blessings in disguise." | "Hard moments can teach you later." |
 | Tracker dupa W36 | "Healing, growing, blooming — you’re doing it all at once." | "You can heal and grow at your own pace." |
 | W7 (prompt) | "What’s one thing you wish you had done differently?" | "What’s one thing you learned from a hard or messy moment this week?" |
 
@@ -58,9 +59,9 @@ Semne de exclamare ramase: 2. Ultima fraza ramane cu "&" pana la BOOK-72. Cand i
 | Loc | Text curent | Text nou |
 |---|---|---|
 | W35 (citat) | "Shine quietly. Grow loudly." | "You can shine in your own way." |
-| W11 (citat) | "Today is a fresh start." | "Every week is a fresh start." |
-| W21 (citat) | "Your smile is a superpower — use it today." | "Your smile is a superpower. Use it this week." |
-| W26 (citat) | "Your future self will thank you for today." | "Your future self will thank you for this week." |
+| W11 (citat) | "Today is a fresh start." | "Start fresh this week." |
+| W21 (citat) | "Your smile is a superpower — use it today." | "Your smile is a superpower. Use it often." |
+| W26 (citat) | "Your future self will thank you for today." | "Future you will thank you for this week." |
 
 W48 ("You are allowed to take up space.") ramane neschimbat. Cu W35 nou, cele doua mesaje nu se mai contrazic.
 
@@ -70,8 +71,8 @@ Ambele citate par derivate din autori cunoscuti. Le-am reformulat ca sa fie orig
 
 | Loc | Text curent | Text nou |
 |---|---|---|
-| W3 (citat) | "Gratitude turns what we have into enough." | "Gratitude can make what you have feel like enough." |
-| W10 (citat) | "Joy is not in things; it is in us." | "Joy isn’t found in things. It’s found in you." |
+| W3 (citat) | "Gratitude turns what we have into enough." | "Gratitude helps you see what is enough." |
+| W10 (citat) | "Joy is not in things; it is in us." | "Joy isn’t in things. It’s in you." |
 
 Verificare sursa: W3 seamana cu o fraza atribuita des autoarei Melody Beattie. W10 seamana cu un citat atribuit des lui Richard Wagner. Nu am verificat sursele online, deci reformularea e varianta sigura.
 
