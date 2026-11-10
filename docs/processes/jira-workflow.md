@@ -59,7 +59,7 @@ Campurile existente (model recomandat, estimare) se pastreaza.
 
 ## Bifarea Acceptance Criteria
 
-- Se bifeaza doar criteriile pe care Claude le-a rezolvat si le poate dovedi (fisier in git, ticket creat, comentariu scris).
+- Se bifeaza doar criteriile pe care Claude le-a rezolvat si le poate dovedi (fisier in git sau tichet creat). Un criteriu despre comentariul final se bifeaza imediat dupa ce comentariul e scris.
 - Un criteriu partial rezolvat ramane nebifat. Comentariul final spune ce lipseste.
 - Textul criteriilor nu se modifica la bifare. Se schimba doar `[ ]` in `[x]`.
 - Criteriul despre documentatia in git se bifeaza dupa commit.
