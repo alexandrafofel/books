@@ -31,7 +31,7 @@ Fiecare tichet are aceste sectiuni in descriere:
 3. **Actiune**: ce trebuie facut.
 4. **Dependente**: ce trebuie sa fie gata inainte (before) si ce deblocheaza tichetul (after). Fiecare dependenta apare si ca link Jira.
 5. **DoR (Definition of Ready)**: ce trebuie sa fie adevarat inainte sa inceapa lucrul.
-6. **Acceptance Criteria**: conditiile de acceptare. Include mereu documentatia in git. Daca lucrul cere alte tichete (improvements sau bugs), acestea trebuie create si listate.
+6. **Acceptance Criteria**: conditiile de acceptare, scrise ca lista de bife (`- [ ] criteriu`), cate un criteriu pe rand. Include mereu documentatia in git. Daca lucrul cere alte tichete (improvements sau bugs), acestea trebuie create si listate.
 7. **Definition of Done**: include mereu documentatia in git, comentariul final pe Jira si crearea tichetelor follow-up daca exista.
 
 Campurile existente (model recomandat, estimare) se pastreaza.
@@ -46,14 +46,26 @@ Campurile existente (model recomandat, estimare) se pastreaza.
 1. Verifica ca tichetul e in Ready. Daca nu, nu incepe.
 2. Muta tichetul in In Progress.
 3. Lucreaza pe acceptance criteria.
+4. Daca descrierea nu are criteriile ca lista de bife, le converteste in `- [ ] criteriu` fara sa schimbe textul lor.
 
 ## Cand Claude termina un ticket
 
 1. Scrie documentatia in repo-ul proiectului, in folderul potrivit, cu numele `<CHEIE>-<slug>.md`. Exemplu: `docs/niche/CRA-7-niche-and-icp.md`.
 2. Face commit cu cheia tichetului in mesaj, de exemplu `CRA-7: niche and ICP`.
 3. Creeaza tichetele follow-up (improvements sau bugs) cu toate sectiunile de mai sus, in To Do.
-4. Scrie un comentariu final pe tichet, cu linkul la fisierul din git.
-5. Muta tichetul in In Review. Alexandra verifica si muta in Done.
+4. Bifeaza in Jira, in descrierea tichetului, la sectiunea Acceptance Criteria, criteriile rezolvate (`- [x] criteriu`). Vezi regulile de bifare de mai jos.
+5. Scrie un comentariu final pe tichet, cu linkul la fisierul din git. Comentariul listeaza criteriile bifate si pe cele ramase nebifate, cu motivul.
+6. Muta tichetul in In Review. Alexandra verifica si muta in Done.
+
+## Bifarea Acceptance Criteria
+
+- Se bifeaza doar criteriile pe care Claude le-a rezolvat si le poate dovedi (fisier in git, ticket creat, comentariu scris).
+- Un criteriu partial rezolvat ramane nebifat. Comentariul final spune ce lipseste.
+- Textul criteriilor nu se modifica la bifare. Se schimba doar `[ ]` in `[x]`.
+- Criteriul despre documentatia in git se bifeaza dupa commit.
+- Criteriul despre tichetele follow-up se bifeaza dupa ce tichetele sunt create si listate.
+- Bifarea se face inainte de mutarea in In Review. Un tichet nu ajunge in In Review cu criterii rezolvate si nebifate.
+- Alexandra poate debifa un criteriu la review. Claude il reia, nu il rebifeaza fara sa-l rezolve.
 
 ## Reguli generale
 
